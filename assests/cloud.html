@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">cDDFF
+        <div class="container">
+            <h1 class="display-4">Weather Dashboard</h1>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+        
+                <div class="search-section">
+                    <input id="myInput" type="text" placeholder="Search..">
+                    <br>
+                
+                    <ul id="myList">
+                        <li name="city" id="city" value="London">London</li>
+                        <li name="city" id="city" value="Cairo">cairo</li>
+                        <li name="city" id="city" value="noida">noida</li>
+                        <li name="city" id="city" value="meerut">meerut</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8">
+   
+                <div class="details-city">
+                    <div class="card  ">
+                      <div class="card-body">
+                        <div id="name"></div>
+                        <div id="time"></div>
+                        <div id="temp"></div>
+                        <div id="humidity"></div>
+                        <div id="wind"></div>
+                      </div>
+                    </div>
+                    <!-- <h3>Current Day</h3>
+                    <div id="name"></div>
+                    <div id="time"></div>
+                    <div id="temp"></div>
+                    <div id="humidity"></div>
+                    <div id="wind"></div> -->
+                </div>
+
+                <div class="days">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <h3>Day one</h3>
+                            <div id="time1"></div>
+                            <div id="temp1"></div>
+                            <div id="humidity1"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Day two</h3>
+                            <div id="time2"></div>
+                            <div id="temp2"></div>
+                            <div id="humidity2"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Day three</h3>
+                            <div id="time3"></div>
+                            <div id="temp3"></div>
+                            <div id="humidity3"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Day Foure</h3>
+                            <div id="time4"></div>
+                            <div id="temp4"></div>
+                            <div id="humidity4"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
